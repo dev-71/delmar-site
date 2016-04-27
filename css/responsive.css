@@ -1,0 +1,114 @@
+.banner .container {
+	background-size:contain;
+    background-image: url('../img/food1-2.jpg');
+
+}
+
+.bottom img{
+    padding-left: 300px;
+
+    }
+.banner img{
+        padding-left: 20px;
+    width: 80%;}
+.nav ul li{
+    width:25%;
+    font-size: 85%;
+    display: inline;
+
+}
+.articles{
+        width: 95%;
+    }
+@media screen and (max-width: 620px){
+.nav ul li{
+        width: 33%;
+    }
+    .nav-menu ul li{
+        width: 33%;
+        font-size: 85%;
+    }
+    .banner .container {
+	background-image: none;
+
+    }
+    .jumbotron{
+        height: 450px;
+        background-size: cover;
+    }
+    .jumbotron .event-txt{
+        color: black;
+        width: 75%;
+        font-size: 90%;
+        height: 40%;
+    }
+
+}
+@media screen and (max-width: 480px){
+
+
+    .menu-trigger{
+        display: block;
+        color: #fff;
+        background-color: #950717;
+
+
+        padding: 10px;
+        text-align: right;
+        font-size: 83%;
+        cursor: pointer;
+    }
+    div .nav-menu{
+        display: none;
+    }
+    div .nav-expanded{
+        display: block;
+    }
+    div .nav-menu ul li{
+
+    float: none;
+
+    border-bottom: 2px solid #d5dce4;
+    }
+    div .nav-menu ul li:last-child{
+        border-bottom: none;
+    }
+    .banner .container {
+	background-image: none;
+
+    }
+}
+@media screen and (max-width: 500px){
+
+    div.mobile{
+        width:auto;
+        float: none;
+        margin-right: 0;
+    }
+
+    .banner .container {
+	background-image: none;
+
+    }
+    .banner img{
+        padding-left: 20px;
+        width: 95%;
+
+    }
+    .articles{
+        width: 98%;
+        font-size: 75%;
+    }
+    .description h1{
+        font-size: 95%;
+        font-weight: bold;
+    }
+    .description{
+        font-size: 85%;
+    }
+    .bottom img{
+    padding-left: 100px;
+
+    }
+
+}
